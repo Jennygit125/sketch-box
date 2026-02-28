@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.controls{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#sketch_box {
+    border: 1px solid rgb(112, 111, 111);
+    margin: 8px;
+    border-radius: 4px;
+    background: white;
+}
+.grid-cell{
+    border: 1px solid #eee;
+    opacity: 1;
+}
